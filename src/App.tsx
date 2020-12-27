@@ -1,9 +1,9 @@
-import {useState} from 'react';
+import {useState, lazy, Suspense} from 'react';
+import Loading from './animation/Loading';
 import './App.css';
-import {
-  HeartNotAccepted as HeartBreak,
-  HeartAccepted as Heart,
-} from './animation';
+
+const CompHeartAccepted = lazy(() => import('./animation/HeartAccepted'));
+const CompHeartRefuse = lazy(() => import('./animation/HeartNotAccepted'));
 
 function App() {
   const [isAccepted, setIsAccepted] = useState(0);
@@ -24,21 +24,25 @@ function App() {
         {isAccepted === 0 && (
           <div>
             <h2>Would you like to be mine?</h2>
-            <button className="buttons accepted" onClick={onAccept}>Yes</button>{' '}
-            <button className="buttons refuse" onClick={onRefuse}>No</button>
+            <button className="buttons accepted" onClick={onAccept}>
+              Yes
+            </button>{' '}
+            <button className="buttons refuse" onClick={onRefuse}>
+              No
+            </button>
           </div>
         )}
         {isAccepted === 1 && (
-          <div>
-            <h4>Thank you mbak Nanda ☺️</h4>
-            <Heart />
-          </div>
+          <Suspense fallback={<Loading />}>
+            <h4>Thank you mbak Nanda</h4>
+            <CompHeartAccepted />
+          </Suspense>
         )}
         {isAccepted === 2 && (
-          <div>
+          <Suspense fallback={<Loading />}>
             <h4>Thank you mbak buat pilihannya 😇</h4>
-            <HeartBreak />
-          </div>
+            <CompHeartRefuse />
+          </Suspense>
         )}
       </main>
     </div>
