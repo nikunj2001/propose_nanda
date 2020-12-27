@@ -1,22 +1,29 @@
 {
   "files": {
+    "static/js/0.edb20ae6.chunk.js": "/propose_nanda/static/js/0.edb20ae6.chunk.js",
+    "static/js/0.edb20ae6.chunk.js.map": "/propose_nanda/static/js/0.edb20ae6.chunk.js.map",
     "main.css": "/propose_nanda/static/css/main.f21b2c21.chunk.css",
-    "main.js": "/propose_nanda/static/js/main.337caffe.chunk.js",
-    "main.js.map": "/propose_nanda/static/js/main.337caffe.chunk.js.map",
-    "runtime-main.js": "/propose_nanda/static/js/runtime-main.2dcf0550.js",
-    "runtime-main.js.map": "/propose_nanda/static/js/runtime-main.2dcf0550.js.map",
-    "static/js/2.dec35a50.chunk.js": "/propose_nanda/static/js/2.dec35a50.chunk.js",
-    "static/js/2.dec35a50.chunk.js.map": "/propose_nanda/static/js/2.dec35a50.chunk.js.map",
-    "static/js/3.8be96a77.chunk.js": "/propose_nanda/static/js/3.8be96a77.chunk.js",
-    "static/js/3.8be96a77.chunk.js.map": "/propose_nanda/static/js/3.8be96a77.chunk.js.map",
+    "main.js": "/propose_nanda/static/js/main.2f2ca271.chunk.js",
+    "main.js.map": "/propose_nanda/static/js/main.2f2ca271.chunk.js.map",
+    "runtime-main.js": "/propose_nanda/static/js/runtime-main.4f679fbe.js",
+    "runtime-main.js.map": "/propose_nanda/static/js/runtime-main.4f679fbe.js.map",
+    "static/js/3.3f7fa749.chunk.js": "/propose_nanda/static/js/3.3f7fa749.chunk.js",
+    "static/js/3.3f7fa749.chunk.js.map": "/propose_nanda/static/js/3.3f7fa749.chunk.js.map",
+    "static/js/4.422c6497.chunk.js": "/propose_nanda/static/js/4.422c6497.chunk.js",
+    "static/js/4.422c6497.chunk.js.map": "/propose_nanda/static/js/4.422c6497.chunk.js.map",
+    "static/js/5.6021d2a4.chunk.js": "/propose_nanda/static/js/5.6021d2a4.chunk.js",
+    "static/js/5.6021d2a4.chunk.js.map": "/propose_nanda/static/js/5.6021d2a4.chunk.js.map",
+    "static/js/6.9748d3e1.chunk.js": "/propose_nanda/static/js/6.9748d3e1.chunk.js",
+    "static/js/6.9748d3e1.chunk.js.map": "/propose_nanda/static/js/6.9748d3e1.chunk.js.map",
     "index.html": "/propose_nanda/index.html",
     "static/css/main.f21b2c21.chunk.css.map": "/propose_nanda/static/css/main.f21b2c21.chunk.css.map",
-    "static/js/2.dec35a50.chunk.js.LICENSE.txt": "/propose_nanda/static/js/2.dec35a50.chunk.js.LICENSE.txt"
+    "static/js/0.edb20ae6.chunk.js.LICENSE.txt": "/propose_nanda/static/js/0.edb20ae6.chunk.js.LICENSE.txt",
+    "static/js/3.3f7fa749.chunk.js.LICENSE.txt": "/propose_nanda/static/js/3.3f7fa749.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2dcf0550.js",
-    "static/js/2.dec35a50.chunk.js",
+    "static/js/runtime-main.4f679fbe.js",
+    "static/js/3.3f7fa749.chunk.js",
     "static/css/main.f21b2c21.chunk.css",
-    "static/js/main.337caffe.chunk.js"
+    "static/js/main.2f2ca271.chunk.js"
   ]
 }
