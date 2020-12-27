@@ -1,16 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+* {
+  font-family: 'Nunito', serif;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -24,15 +19,29 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.buttons {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  color: white;
+  width: 200px;
+  height: 100px;
+  position: relative;
+  margin: 30px;
+  top: 100px;
+  padding: 16px;
+  font-size: 50px;
+  border-radius: 10px;
+  transition: all 0.2s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.accepted {
+  background: #ff77a9;
+  box-shadow: 0px 15px 0px 0px darken(#b4004e, 5%), 0px 0px 20px 0px #bbb;
+}
+
+.refuse {
+  background: #e0e0e0;
+  box-shadow: 0px 15px 0px 0px darken(#aeaeae, 5%), 0px 0px 20px 0px #bbb;
 }
